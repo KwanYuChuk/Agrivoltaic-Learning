@@ -1,0 +1,30 @@
+---
+title: "AV notes"
+author: "Kwan Yu Chuk"
+date: "2026-09-29"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Panel materials
+
+4 categories of panel materials:
+
+**Conventional c-Si**: single-sided monocrystalline or polycrystalline silicon modules, characterised by a single active surface exposed to direct solar radiation. <span style="color:blue">Usually moderate to high shading</span>.
+
+**Bifacial PV**: two active surfaces capable of absorbing not only direct and diffuse radiation, but also that reflected from the ground. <span style="color:blue">Usually low to moderate shading in vertical; moderate to high shading in tilt</span>.
+
+**Semi-tranparent PV**: transmit a significant amount of PAR, while filtering out wavelengths that cannot be used by plants and converting them into electricity. <span style="color:blue">Usually low to moderate shading</span>.
+
+**Concentrating PV**: convey solar radiation to high-efficiency multi-junction cells, allowing the diffuse component of the radiation to pass through to the plants. <span style="color: blue">Designed for low crop light penaty</span>.
+
+<p align="center">
+<img src="Rmd_image/crop_category_and_pv.png" width="75%">
+</p>
+
+<p align="center">
+<img src="Rmd_image/panel_config1.png" width="75%">
+</p>
