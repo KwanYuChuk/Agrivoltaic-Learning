@@ -1,0 +1,26 @@
+---
+title: "Learning Diary"
+author: "Kwan Yu Chuk"
+date: "2026-10-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### 2026-10-02
+
+**講講這個repo的本意**
+
+我的本意是創建一個網站來記錄PhD學習的過程。初步構想是使用Rmarkdown及一個開源github page搭建一個網站。但是對兩者都知之甚少。基於此，我便先記錄在Rmarkdown上面，等後續有時間再慢慢補全。
+
+日記部分主要會以中文形式呈現，學習筆記以英文爲主，中文為輔。
+
+**再講講AI在科研中的運用**
+
+這段時間我在修改PhD開題報告。遇到的一個很大的問題是導師寫了很多so what類的評論。我試著把我寫的狗屎原文投喂給3個AI，分別是Claude, Chatgpt與Gemini.
+
+Claude (free) 給我的感覺是一個非常嚴厲的導師，話不多而句句切中痛點。Chatgpt (free) 大概被我用壞了，回復很長，囉囉嗦嗦講了上千字，有點點在奉承。Gemini (plus) 只改了幾個語法錯誤，更適合來讀文獻。
+
+以上。
