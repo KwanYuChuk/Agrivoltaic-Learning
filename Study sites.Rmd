@@ -1,0 +1,26 @@
+---
+title: "Sites"
+author: "Kwan Yu Chuk"
+date: "2026-10-02"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Boonanarring site
+
+My favorite site
+
+## Bickley site
+
+Variables measured: air temperature, humidity, wind, rain gauge, air pressure, soil moisture at 10cm, 20cm and 30cm, solar radiation at 70cm (below canopy) and 195cm (above canopy).
+
+Panels: bifacial panels, facing down side can receive 20% of reflected radiation. 3 rows, total 27 panels. 17 watts.
+
+Issues  identified:
+
+1. Sensors are measuring solar radiation, not net radiation. So I cannot calculate ET in this site, whatever PM equation or residual energy balance approach. Need to remind supervisor if we could install net radiometer in Bickley.
+
+2. There is a slope. The soil moisture sensor at control site is at upper slope and at treatment site is at lower slope. Accuracy of Sws measurement will be affected by this design and slope. If could, we need to relocate control soil moisture sensor, making it perpendicular to the row.
